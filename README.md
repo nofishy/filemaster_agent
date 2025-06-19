@@ -1,10 +1,10 @@
-# FileMaster AI Agent
+# File Master Agent
 
-**FileMaster AI Agent** is an intelligent assistant designed to streamline file and folder management on your computer through natural language commands. It leverages the power of the Goose AI framework and LangGraph Swarm to understand complex requests and execute them efficiently.
+**File Master Agent** is an intelligent assistant designed to streamline file and folder management on your computer through natural language commands. It leverages the power of the Goose AI framework and LangGraph Swarm to understand complex requests and execute them efficiently.
 
 ## Overview
 
-In today's digital world, managing a vast number of files and folders can be time-consuming and cumbersome. FileMaster AI Agent aims to simplify this by providing a conversational interface to your file system. You can instruct the agent to perform a wide range of operations, from simple file creation and deletion to more complex tasks like organizing directories, searching for files based on content, and batch operations.
+In today's digital world, managing a vast number of files and folders can be time-consuming and cumbersome. File Master Agent aims to simplify this by providing a conversational interface to your file system. You can instruct the agent to perform a wide range of operations, from simple file creation and deletion to more complex tasks like organizing directories, searching for files based on content, and batch operations.
 
 ## Key Features
 
@@ -18,7 +18,7 @@ In today's digital world, managing a vast number of files and folders can be tim
 
 ## Architecture
 
-FileMaster AI Agent is built upon a modular architecture:
+File Master Agent is built upon a modular architecture:
 
 1.  **Goose AI Agent Core:** This is the brain of the operation, responsible for:
     *   Natural Language Processing (NLP) to understand user commands.
@@ -50,7 +50,7 @@ This project is currently under active development.
 1.  **Clone the repository:**
     ```bash
     git clone [URL_OF_YOUR_REPO_ONCE_UPLOADED]
-    cd filemaster-ai-agent
+    cd filemaster_agent
     ```
 
 2.  **Setup Goose AI Agent:**
@@ -59,7 +59,7 @@ This project is currently under active development.
     *   Ensure the `goose` CLI is accessible in your PATH or called directly.
 
 3.  **Setup LangGraph Swarm MCP Server:**
-    *   Navigate to the root directory of `filemaster-ai-agent` (or a specific sub-directory if the Node.js project is nested, e.g., `langgraph-swarm-mcp/`).
+    *   Navigate to the root directory of `filemaster_agent` (or a specific sub-directory if the Node.js project is nested, e.g., `langgraph-swarm-mcp/`).
     *   Install Node.js dependencies:
         ```bash
         npm install
@@ -76,7 +76,7 @@ This project is currently under active development.
         node src/index.js # (or the relevant entry point for the MCP server)
         ```
 
-5.  **Run the FileMaster AI Agent (via Goose CLI):**
+5.  **Run the File Master Agent (via Goose CLI):**
     *   Once the MCP server is running, you would typically start the Goose agent, configured to connect to your local MCP server. The exact command will depend on the Goose CLI's interface.
     *   Example (hypothetical):
         ```bash
@@ -103,7 +103,7 @@ Once the agent is running, you can interact with it using natural language comma
 
 ## Contributing
 
-We welcome contributions to FileMaster AI Agent! If you're interested in helping, please consider the following:
+We welcome contributions to File Master Agent! If you're interested in helping, please consider the following:
 
 1.  **Fork the repository.**
 2.  **Create a new branch** for your feature or bug fix: `git checkout -b feature/your-feature-name` or `bugfix/issue-number`.
