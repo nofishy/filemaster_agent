@@ -1,0 +1,7 @@
+{
+  "whitelistedDirectories": [
+    "/Users/nofishy/Documents",
+    "/Users/nofishy/Documents/file_agent"
+  ],
+  "logFilePath": "logs/audit.log"
+}

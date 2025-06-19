@@ -1,0 +1,20 @@
+{
+  "name": "file_agent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/google-genai": "^0.2.5",
+    "@langchain/langgraph-swarm": "^0.0.3",
+    "dotenv": "^16.5.0"
+  }
+}

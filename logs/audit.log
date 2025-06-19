@@ -1,0 +1,16 @@
+// Audit log entries will be written here
+2025-05-02T14:10:15.113Z - User: testuser, Operation: WRITE, File: test.txt, Success: false
+2025-05-02T14:10:15.114Z - User: testuser, Operation: READ, File: test.txt, Success: false
+2025-05-02T14:10:15.114Z - User: testuser, Operation: LIST, File: ., Success: true
+2025-05-02T14:11:20.592Z - User: testuser, Operation: WRITE, File: test.txt, Success: false
+2025-05-02T14:11:20.594Z - User: testuser, Operation: LIST, File: ., Success: true
+2025-05-02T14:11:20.594Z - User: testuser, Operation: READ, File: test.txt, Success: false
+2025-05-02T14:24:52.505Z - User: testuser, Operation: WRITE, File: test.txt, Success: false
+2025-05-02T14:24:52.507Z - User: testuser, Operation: READ, File: test.txt, Success: false
+2025-05-02T14:24:52.507Z - User: testuser, Operation: LIST, File: ., Success: true
+2025-05-02T15:12:02.508Z - User: testuser, Operation: WRITE, File: test.txt, Success: true
+2025-05-02T15:12:02.510Z - User: testuser, Operation: READ, File: test.txt, Success: true
+2025-05-02T15:12:02.510Z - User: testuser, Operation: LIST, File: ., Success: true
+2025-05-02T16:52:25.451Z - User: testuser, Operation: WRITE, File: test.txt, Success: true
+2025-05-02T16:52:25.452Z - User: testuser, Operation: READ, File: test.txt, Success: true
+2025-05-02T16:52:25.453Z - User: testuser, Operation: LIST, File: ., Success: true
